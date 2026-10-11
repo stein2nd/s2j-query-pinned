@@ -2,6 +2,13 @@
 
 ## unreleased
 
+## 0.0.1 - 2026-10-11
+
+### Changed
+
+* 開発依存 npm を更新 (`@wordpress/components` v42、`@wordpress/element` v9、Vite v8.3.4、Rollup v4.64.5、`@typescript-eslint/*` v8.71.1等)
+* 開発依存の `braces` v3.0.3 (GHSA-vfj7-8cjw-p6xm) は修正版が未公開のため、深刻度 high の指摘7件 (CVE-2026-93687) は残す。
+
 ## 0.0.1 - 2026-10-10
 
 ### Changed
