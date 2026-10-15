@@ -2,6 +2,18 @@
 
 ## unreleased
 
+## 0.0.1 - 2026-10-15
+
+### Added
+
+* GitHub Actions に配布 zip ビルド (`dist-zip.yml`) と PHPUnit (`phpunit.yml`) を追加
+* `tools/dist/make-dist-zip.mjs` で本番ビルドから配布 zip を生成
+
+### Changed
+
+* 開発依存 npm を更新 (React v19.3.1、Rollup v4.64.7、`@s2j/docs-linter` v1.0.29、`@typescript-eslint/*` v8.71.2等)
+* textlint の許可パターンに `#status-*` アンカー ID を追加
+
 ## 0.0.1 - 2026-10-11
 
 ### Changed
