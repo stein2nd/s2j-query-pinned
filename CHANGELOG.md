@@ -2,6 +2,18 @@
 
 ## unreleased
 
+## 0.0.1 - 2026-10-24
+
+### Added
+
+* `phpunit.unit.xml.dist` とユニット PHPUnit のスモークテストを追加。CI は WordPress 未起動の `composer test:unit` を実行する。
+* `package.json` に `phpunit:wp-env` を追加し、GitHub Actions「PHPUnit」が未定義 script で落ちないようにした。
+
+### Changed
+
+* WordPress [必須要件](https://ja.wordpress.org/about/requirements/)に合わせ、実行環境の PHP 下限を v8.3にそろえた。`composer.json`、`phpcs.xml.dist`、`phpstan.neon.dist`、`.github/workflows/phpunit.yml`、`.github/workflows/dist-zip.yml`、`docs_mod/specs.md`、`README.md` を更新した。
+* GitHub Actions「docs-lint」の paths に `composer.json` を追加した。
+
 ## 0.0.1 - 2026-10-15
 
 ### Added
