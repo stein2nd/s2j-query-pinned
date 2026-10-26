@@ -2,6 +2,14 @@
 
 ## unreleased
 
+## 0.0.1 - 2026-10-26
+
+### Changed
+
+* `makejson` のデフォルトを purge ありにし、孤児 JED を削除する。`--no-purge` は `makejson:keep` のみにした。
+* `languages/*-{32hex}.json` (JED) はコミット対象のままとし、`.gitignore` に方針コメントを足した。
+* `vite.config.ts` に wp-plugin-spec I18N 向けのプレースホルダと参照コメントを置いた。
+
 ## 0.0.1 - 2026-10-24
 
 ### Added
