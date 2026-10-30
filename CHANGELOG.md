@@ -2,6 +2,13 @@
 
 ## unreleased
 
+## 0.0.1 - 2026-10-30
+
+### Changed
+
+* 開発依存 npm を更新 (`@s2j/docs-linter` v1.0.31、Rollup v4.66.0、Sass v1.107.0、`@typescript-eslint/*` v8.72.1等)
+* Composer 開発依存の PHPStan を v2.3.4に更新 (`composer.lock`)
+
 ## 0.0.1 - 2026-10-26
 
 ### Changed
