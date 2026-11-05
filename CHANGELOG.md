@@ -2,6 +2,13 @@
 
 ## unreleased
 
+## 0.0.1 - 2026-11-05
+
+### Changed
+
+* 開発依存 npm を更新 (`@wordpress/block-editor` v20、`@wordpress/components` v44、Stylelint v18、Vite v8.3.6、Rollup v4.67.5、`@s2j/docs-linter` v1.0.32等)
+* Composer 開発依存の PHPStan を v2.3.5に更新 (`composer.lock`)
+
 ## 0.0.1 - 2026-10-30
 
 ### Changed
