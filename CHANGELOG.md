@@ -2,6 +2,14 @@
 
 ## unreleased
 
+## 0.0.1 - 2026-11-20
+
+### Changed
+
+* GitHub Actions を Node.js v24にそろえ、`actions/checkout@v5` と `actions/setup-node@v5` に更新 (`docs-lint.yml`、`phpunit.yml`、`dist-zip.yml`)。配布 zip は `actions/upload-artifact@v6` を使う。
+* 開発依存 npm を更新 (`@wordpress/components` v45、Stylelint v18.1、`stylelint-config-standard-scss` v18、Vite v8.3.8、Rollup v4.68.7、`@s2j/docs-linter` v1.0.34、`@typescript-eslint/*` v8.73.0等)
+* Composer 開発依存の PHPStan を v2.3.7、PHPUnit を v9.6.39に更新 (`composer.lock`)
+
 ## 0.0.1 - 2026-11-05
 
 ### Changed
